@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Green 360</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = "stylesheet" type = "text/css" href="CSS/shopStyle.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body class="body">
+        <header>
+            <div>
+              <a href="index.html"><img src="images/logo2.png"></a>
+            </div>
+            <!-- Nav Bar -->
+            <div class="nav">
+            <nav class="navbar navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#"></a>
+                    </div>
+                    <ul class="leftNav nav navbar-nav">
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="shop.html">SHOP</a></li>
+                    </ul>
+                    <ul class="rightNav nav navbar-nav">
+                        <li><a href="learn.html">LEARN</a></li>
+                        <li><a href="#" id="btn" onclick="showSub()">SUBSCRIBE</a></li>
+                    </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="shop">
+            <img src="images/shop.jpeg">
+            <h1>Composting</h1>
+            <p>Converting kitchen and yard waste into valuable fertilizer creates the single most important supplement you can give your garden.</p>
+        </div>
+        <div class="shopShade"></div>
+        <div class="switch">
+            <h3>Shop</h3>
+            <button id="comp">Compost</button>
+            <button id="gard">Garden</button>
+            <button id="acc">Accessories</button>
+        </div>
+        <div class="contain">
+            <h5>GREEN 360 / SHOP / <span id="third">COMPOST</span></h5>
+            <div id="subContain1" class="subContain1">
+                <div class="item">
+                    <img src="images/item1C.webp">
+                    <p>Stainless Steel Compost Bin</p>
+                    <p id="p">$29.95</p>
+                </div>
+                <div class="item">
+                    <img src="images/item2C.webp">
+                    <p>Black Gold Compost 1cu. ft</p>
+                    <p id="p">$9.99</p>
+                </div>
+                <div class="item">
+                    <img src="images/item3C.webp">
+                    <p>Jora JK125 Composter - 4.5 Cubic Feet</p>
+                    <p id="p">$359.99</p>
+                </div>
+                <div class="item">
+                    <img src="images/item4C.webp">
+                    <p>Organic Concentrated Compost -18lbs</p>
+                    <p id="p">$34.95</p>
+                </div>
+                <div class="item">
+                    <img src="images/item5C.webp">
+                    <p>Jora JK400 Composter - 14.2 Cubic Feet</p>
+                    <p id="p">$899.00</p>
+                </div>
+                <div class="item">
+                    <img src="images/item6C.webp">
+                    <P>Eco King Recycled Plastic Compost Bin - 160 Gallons</P>
+                    <p id="p">$159.99</p>
+                </div>
+            </div>
+            <!-- Garnden Items -->
+            <div id="subContain2" class="subContain2">
+                <div class="item">
+                    <img src="images/item1G.webp">
+                    <p>Premium Humus and Manure, 0.75cu ft</p>
+                    <p id="p">$2.95</p>
+                </div>
+                <div class="item">
+                    <img src="images/item2G.webp">
+                    <p>Insect Dust Diatomaceous Earth - 4.4 lb</p>
+                    <p id="p">$16.95</p>
+                </div>
+                <div class="item">
+                    <img src="images/item3G.webp">
+                    <p>Eco-Lawn Grass Seed - 5 lb</p>
+                    <p id="p">$49.99</p>
+                </div>
+                <div class="item">
+                    <img src="images/item4G.webp">
+                    <p>Farmstead Raised Garden Bed</p>
+                    <p id="p">$119.95</p>
+                </div>
+                <div class="item">
+                    <img src="images/item5G.webp">
+                    <p>Natural Cedar Raised Garden Beds</p>
+                    <p id="p">$49.95</p>
+                </div>
+                <div class="item">
+                    <img src="images/item6G.webp">
+                    <P>Natural Cedar Planter Boxes</P>
+                    <p id="p">$84.99</p>
+                </div>
+            </div> 
+            <!-- Accessory Items -->
+            <div id="subContain3" class="subContain3">
+                <div class="item">
+                    <img src="images/item1A.webp">
+                    <p>Ceramic Compost Keeper Replacement Filters</p>
+                    <p id="p">$6.95</p>
+                </div>
+                <div class="item">
+                    <img src="images/item2A.webp">
+                    <p>Soil Test Kit</p>
+                    <p id="p">$15.95</p>
+                </div>
+                <div class="item">
+                    <img src="images/item3A.webp">
+                    <p>Non-Toxic Fly Trap</p>
+                    <p id="p">$14.99</p>
+                </div>
+                <div class="item">
+                    <img src="images/item4A.webp">
+                    <p>Seven Spray Water Saving Hose Nozzle</p>
+                    <p id="p">$9.95</p>
+                </div>
+                <div class="item">
+                    <img src="images/item5A.webp">
+                    <p>Premium Polyurethane Soaker Hose</p>
+                    <p id="p">$49.95</p>
+                </div>
+                <div class="item">
+                    <img src="images/item6A.webp">
+                    <P>Etched Glass Hummingbird Feeder</P>
+                    <p id="p">$19.99</p>
+                </div>
+            </div> 
+        </div>
+        <!-- Footer -->
+       <div class="footer">
+        <img src="images/footerIMG.jpg">
+       </div>
+       <footer>
+        <h1>Find Us Online!</h1>
+       </footer>
+       <div class="social">
+        <img src="images/FB.webp">
+        <img src="images/Reddit.png">
+        <img src="images/twitter.webp">
+        <img src="images/youtube.png">
+        <img src="images/IG.png">   
+       </div>
+       <div class="copy">
+        <p class="text-center text-md-left">© 2020 Copyright:
+          <a href="https://mdbootstrap.com/">
+            <strong> Green360.com</strong>
+          </a>
+        </p>
+       </div>
+       <div class="contact">
+        <h3>Contact Us</h3>
+         <p><img src="images/address.png">New York, NY 10012, US</p>
+         <p><img src="images/email.png">info@gmail.com</p>
+         <p><img src="images/phone.webp">+ 01 234 567 88</p>
+         <p><img src="images/Faxs.png">+ 01 234 567 89</p>
+       </div>
+
+
+       <!-- Subscription Popup -->
+       <div class="subPop" id="pop">
+        <div class="subContent">
+            <span class="close">&times;</span>
+            <h1>Sign Up Here!</h1>
+            <form class="form-horizontal" action="/action_page.php">
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="fname">Name:</label>
+                <div class="fname col-sm-10">
+                    <input type="text" class="form-control" id="fname" placeholder="Firstname" name="fname">
+                </div>
+                <div class="col-sm-10">
+                    <input type="text" class="lname form-control" id="lname" placeholder="Lastname" name="lname">
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="email">Email:</label>
+                <div class="col-sm-10">          
+                    <input type="email" class="form-control" id="email" placeholder="example@gmail.com" name="email">
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="phone">Phone:</label>
+                </div>
+                <div class="col-sm-10">          
+                    <input type="tel" class="form-control" id="phone" placeholder="(xxx) xxx-xxxx" name="tel">
+                </div>
+                <h5 id="method">Choose a Payment Method:</h5>
+                <br>
+                <br>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="card">Card #:</label>
+                </div>
+                <div class="col-sm-10">          
+                    <input type="text" class="form-control" id="card" placeholder="xxxx xxxx xxxx xxxx" name="card">
+                </div>
+                <div class="form-group">
+                    <label class="expire control-label col-sm-2" for="expire">Expires:</label>
+                </div>
+                <div class="col-sm-10">          
+                    <input type="text" class="form-control" id="mexpire" placeholder="MM" name="mexpire">
+                    <input type="text" class="form-control" id="yexpire" placeholder="YY" name="yexpire">
+                </div>
+                <div class="form-group">
+                    <label class="cname control-label" for="cname">Name on Card:</label>
+                </div>
+                <div class="col-sm-10">          
+                    <input type="text" class="form-control" id="cname" placeholder="" name="cname">
+                </div>
+                <div class="form-group">
+                    <label class="cvc control-label" for="cvc">CVC:</label>
+                </div>
+                <div class="col-sm-10">          
+                    <input type="text" class="form-control" id="cvc" placeholder="xxx" name="cvc">
+                </div>
+                <div class="form-group">      
+                    <div class="subscribe col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-success">Subscribe</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+      </div>
+      <script src="JS/SubscriptionPopUpScript.js"></script>
+      <script src="JS/script.js"></script>
+    </body>
+</html>

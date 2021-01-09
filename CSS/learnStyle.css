@@ -1,0 +1,470 @@
+@font-face{
+    font-family: 'B';
+    src: url('fonts/b1.ttf');
+}
+html{
+    background-color: rgb(238, 238, 238);
+    height: 200em;
+}
+.body{
+    height: 175em;
+    background-color: rgb(238, 238, 238);
+    border-bottom: 2px solid black;
+}
+header{
+    width: 100%;
+    height: 7.5em;
+    border-bottom: 1px solid green;
+}
+header img{
+    position: absolute;
+    height: 7em;
+    width: 14.5em;
+    top: -0.3em;
+    left: 40em;
+}
+header img:hover{
+    height: 10em;
+    width: 20em;
+    top: -2em;
+    left: 37em;
+}
+/* Nav */
+nav{
+    font-size: 250%;
+    height: 6em;
+}
+nav ul li a{
+    color: rgb(199, 90, 0);
+}
+nav ul li a:hover{
+    text-decoration: none;
+    border-bottom: 4px solid green;
+    color: rgb(199, 90, 0);
+}
+.leftNav{
+    position: absolute;
+    top: 0.5em;
+    left: 7em;
+    width: 10em;
+    height: 0em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.rightNav{
+    position: absolute;
+    top: 0.5em;
+    left: 22em;
+    width: 10em;
+    height: 0em;
+}
+.shade{
+    position: absolute;
+    top: 10em;
+    width: 89.5%;
+    height: 25em;
+    left: 5em;
+    background-color: black;
+    z-index: 3;
+    opacity: 0.3;
+}
+
+/* Jumbo Image */
+.jumbo img{
+    position: absolute;
+    top: 10em;
+    width: 100%;
+    height: 25em;
+    padding-right: 5em;
+    padding-left: 5em;
+}
+.jumbo h4{
+    position: absolute;
+    color: white;
+    top: 10em;
+    left: 5em;
+    z-index: 4;
+    font-family:cursive;
+}
+.jumbo h1{
+    position: absolute;
+    color: white;
+    top: 7em;
+    left: 3em;
+    width: 15em;
+    z-index: 4;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.jumboText p{
+    position: absolute;
+    width: 100%;
+    padding-left: 6em;
+    padding-right: 6em;
+    top: 25em;
+    font-size: 150%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+}
+
+/* Composting Benefits */
+.benefits h1{
+    position: absolute;
+    top: 17em;
+    left: 2em;
+    font-family: 'B';
+    font-size: 300%;
+    border-bottom: 2px solid rgb(103, 202, 5);
+}
+.benefits p{
+    position: absolute;
+    width: 29em;
+    top: 37em;
+    left: 4.5em;
+    font-size: 150%;
+    color: rgb(95, 95, 95);
+}
+.benefits img{
+    position: absolute;
+    width: 35em;
+    height: 22em;
+    right: 5em;
+    top: 56.5em;
+    border: 2px solid rgb(103, 202, 5);
+}
+
+/* Composting Science */
+.science h3{
+    position: absolute;
+    font-family: 'B';
+    top: 49em;
+    left: 9.5em;
+    width: 17em;
+    line-height: 160%;
+    transform: skewx(-10deg);
+    color: rgb(109, 139, 88);
+}
+.science p{
+    position: absolute;
+    top: 68em;
+    width: 27em;
+    right: 11em;
+    font-size: 125%;
+    text-align: center;
+    color: grey;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-left: 1px solid rgb(103, 202, 5);
+    padding-left: 3em;
+}
+.what h1{
+    position: absolute;
+    top: 35em;
+    left: 2em;
+    font-family: 'B';
+    font-size: 300%;
+    border-bottom: 2px solid rgb(103, 202, 5);
+}
+.what p{
+    position: absolute;
+    width: 29em;
+    top: 73em;
+    left: 4.5em;
+    font-size: 150%;
+    color: rgb(95, 95, 95);
+}
+.what img{
+    position: absolute;
+    width: 35em;
+    height: 22em;
+    right: 5em;
+    top: 110em;
+    border: 2px solid rgb(103, 202, 5);
+}
+
+/* difference */
+.difference h1{
+    position: absolute;
+    top: 46em;
+    left: 2em;
+    font-family: 'B';
+    font-size: 300%;
+    border-bottom: 2px solid rgb(103, 202, 5);
+}
+#p1{
+    position: absolute;
+    width: 57em;
+    top: 95em;
+    left: 4.5em;
+    font-size: 150%;
+    color: rgb(95, 95, 95);
+}
+#p2{
+    position: absolute;
+    width: 57em;
+    top: 99em;
+    left: 4.5em;
+    font-size: 150%;
+    color: rgb(95, 95, 95);
+}
+#p3{
+    position: absolute;
+    width: 57em;
+    top: 108em;
+    left: 4.5em;
+    font-size: 150%;
+    color: rgb(95, 95, 95);
+}
+
+/* Footer style */
+.footer img{
+    position: fixed;
+    bottom: 0em;
+    width: 100%;
+    height: 25em;
+    z-index: -10;
+}
+footer h1{
+    position: relative;
+    left: 8em;
+    top: 68.5em;
+    width: 10em;
+    color: white;
+    z-index: 5;
+}
+.social{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 40em;
+    justify-content: space-evenly;
+    left: 8em;
+    top: 175em;
+}
+.social img{
+    height: 5em;
+    width: 5em;
+    filter: grayscale(100%);
+}
+.social img:hover{
+    filter: grayscale(0%);
+}
+.copy{
+    color: white;
+    position: relative;
+    left: 20.8em;
+    top: 180em;
+    width: 20em;
+}
+.contact{
+    position: relative;
+    color: white;
+    left: 70em;
+    top: 160.5em;
+    width: 20em;
+}
+.contact h3{
+    padding-bottom: 0.5em;
+}
+.contact p{
+    padding-left: 2em;
+}
+.contact img{
+    height: 2em;
+    width: 2em;
+    position: relative;
+    left: -1em;
+}
+
+/* Compost Popup */
+.table{
+    display: none;
+    position: fixed;
+    z-index: 4;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.subTable{
+    background-color: #fefefe;
+    margin: auto;
+    border: 3px solid rgb(103, 202, 5);
+    width: 50%;
+    height: 40em;
+    border-radius: 15px;
+}
+/* Close Button */
+.close2 {
+    color: #aaaaaa;
+    float: right;
+    padding-left: 1em;
+    font-size: 50px;
+    font-weight: bold;
+    width: 2em;
+}
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Images */
+.images{
+    height: 3em;
+    width: 100%;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.images img{
+    position: relative;
+    top: -2.5em;
+    height: 5em;
+    width: 5em;
+}
+#good{
+    top: -3em;
+    height: 6em;
+    width: 6em;
+}
+.goodSide{
+    width: 50%;
+    height: 32em;
+    border-right: 2px solid black;
+}
+.goodSide ul li{
+    font-size: 150%;
+}
+.badSide{
+    position: relative;
+    top: -32em;
+    float: right;
+    width: 50%;
+    height: 32em;
+}
+.badSide ul li{
+    font-size: 150%;
+}
+/* Subscription Pop Up */
+.subPop{
+    display: none;
+    position: fixed;
+    z-index: 4;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+/* Content */
+.subContent {
+    background-color: #fefefe;
+    margin: auto;
+    border: 3px solid rgb(103, 202, 5);
+    width: 50%;
+    height: 40em;
+    border-radius: 15px;
+}
+.subContent h1{
+    padding-top: 0.3em;
+    padding-left: 0.3em;
+    font-size: 350%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#fname{
+    width: 15em;
+    border: 2px solid green;
+}
+#lname{
+    position: absolute;
+    width: 15em;
+    top: -2.4em;
+    left: 18em;
+    border: 2px solid green;
+}
+#email{
+    border: 2px solid green;
+}
+#phone{
+    border: 2px solid green;
+}
+#card{
+    width: 15em;
+    border: 2px solid green;
+}
+#method{
+    position: absolute;
+    top: 0em;
+    color: black;
+    padding-left: 1em;
+    top: 20.5em;
+}
+.expire{
+    position: absolute;
+    top: -5.5em;
+    left: 20em;
+}
+#mexpire{
+    position: absolute;
+    width: 3.5em;
+    top: -5.4em;
+    left: 20.8em;
+    border: 2px solid green;
+}
+#yexpire{
+    position: absolute;
+    width: 3em;
+    top: -5.4em;
+    left: 25em;
+    border: 2px solid green;
+}
+.cname{
+    position: absolute;
+    left: 24.9em;
+    top: 33.6em;
+}
+#cname{
+    position: absolute;
+    width: 15em;
+    top: -1em;
+    border: 2px solid green;
+}
+.cvc{
+    position: absolute;
+    top: 33.6em;
+    left: 45em;
+}
+#cvc{
+    position: absolute;
+    top: -1em;
+    width: 3.5em;
+    left: 20.8em;
+    border: 2px solid green;
+}
+.subscribe{
+    position: relative;
+    top: 3em;
+    left: 0em;
+}
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+    width: 2em;
+    padding-top: 1em;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

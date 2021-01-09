@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Green 360</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = "stylesheet" type = "text/css" href="CSS/aboutStyle.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body class="body">
+        <header>
+            <div>
+              <a href="index.html"><img src="images/logo2.png"></a>
+            </div>
+            <!-- Nav Bar -->
+            <div class="nav">
+            <nav class="navbar navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#"></a>
+                    </div>
+                    <ul class="leftNav nav navbar-nav">
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="shop.html">SHOP</a></li>
+                    </ul>
+                    <ul class="rightNav nav navbar-nav">
+                        <li><a href="learn.html">LEARN</a></li>
+                        <li><a href="#" id="btn" onclick="showSub()">SUBSCRIBE</a></li>
+                    </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="intro">
+            <img src="images/logo.PNG">
+            <h3>Providing folks like you with the best possible resources for growing your own food!</h3>
+        </div>
+        <div class="about">
+            <h3>What is green 360?</h3>
+            <p>Green 360 wants nothing but the best for our home farmers and will stop at nothing to ensure a greener future. For our subscription we provide monthly pickup of whatever compost you produce that would originally be thrown away. At our facilities we mix and produce the most organic high grade compost so that your plants can be as healthy as possible. When the final product is produced our drivers drop it off right at your door! If you dont want to subscribe then you can buy however much compost you need at our shop.</p>
+            <img src="images/about.jpg">
+        </div>
+        <div class="why">
+            <h3>Why We Do It</h3>
+            <p>We think composting is very important becasue of it many benefits. Composting reduces landfill waste and can divert as much as 30% of household waste away from the garbage can. That’s important because when organic matter hits the landfill, it lacks the air it needs to decompose quickly. Instead, it creates harmful methane gas as it breaks down, increasing the rate of global warming and climate change. Composting also offers a natural alternative to chemical fertilizers when applied to lawns and garden beds.</p>
+            <img src="images/why.jpg">
+        </div>
+        <div class="expand">
+            <h3>Reaching New Heights!</h3>
+            <p>Green 360 is on a mission to reach out and help farming communities all across the world. With some hard work we think we can really make a difference in our Earths ecosystem. We will continue our green movement inorder to provide top quality resources so that your plants can get the food they need.</p>
+            <img src="images/USA.png">
+        </div>
+        <!-- What green 360 offers -->
+        <div class="offer">
+            <div class="pickUp">
+                <img class="img" src="images/pickup.jpg">
+                <h3 class="h33">PickUp</h3>
+                <p class="p">Our drivers will come out to your house and pickup your Kitchen and Yard waste that originally would've been thrown away. Instead we recycle the waste which reduces the rate of global warming and climate change.</p>
+            </div>
+            <div class="make">
+                <img class="img" src="images/production.jpg">
+                <h3 class="h33">Production</h3>
+                <p class="p">Green 360 knows how important it is for plants to get the nutrients they need, which is why we personally devote so much time and energy in sorting through all needed resources to create the perfect blend of compost.</p>
+            </div>
+            <div class="delivery">
+                <img class="img" src="images/delivery.jpg">
+                <h3 class="h33">Delivery</h3>
+                <p class="p">When the product is finally finished we will deliver straight to your door on a date and time of your choosing. We find it important to make your experience as convinent as possible.</p>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <img src="images/footerIMG.jpg">
+        </div>
+        <footer>
+            <h1>Find Us Online!</h1>
+        </footer>
+        <div class="social">
+            <img src="images/FB.webp">
+            <img src="images/Reddit.png">
+            <img src="images/twitter.webp">
+            <img src="images/youtube.png">
+            <img src="images/IG.png">   
+        </div>
+        <div class="copy">
+            <p class="text-center text-md-left">© 2020 Copyright:
+            <a href="https://mdbootstrap.com/">
+                <strong> Green360.com</strong>
+            </a>
+            </p>
+        </div>
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <p><img src="images/address.png">New York, NY 10012, US</p>
+            <p><img src="images/email.png">info@gmail.com</p>
+            <p><img src="images/phone.webp">+ 01 234 567 88</p>
+            <p><img src="images/Faxs.png">+ 01 234 567 89</p>
+        </div>
+
+
+        <!-- Subscription Popup -->
+        <div class="subPop" id="pop">
+            <div class="subContent">
+                <span class="close">&times;</span>
+                <h1>Sign Up Here!</h1>
+                <form class="form-horizontal" action="/action_page.php">
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="fname">Name:</label>
+                    <div class="fname col-sm-10">
+                        <input type="text" class="form-control" id="fname" placeholder="Firstname" name="fname">
+                    </div>
+                    <div class="col-sm-10">
+                        <input type="text" class="lname form-control" id="lname" placeholder="Lastname" name="lname">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="email">Email:</label>
+                    <div class="col-sm-10">          
+                        <input type="email" class="form-control" id="email" placeholder="example@gmail.com" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="phone">Phone:</label>
+                    </div>
+                    <div class="col-sm-10">          
+                        <input type="tel" class="form-control" id="phone" placeholder="(xxx) xxx-xxxx" name="tel">
+                    </div>
+                    <h5 id="method">Choose a Payment Method:</h5>
+                    <br>
+                    <br>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="card">Card #:</label>
+                    </div>
+                    <div class="col-sm-10">          
+                        <input type="text" class="form-control" id="card" placeholder="xxxx xxxx xxxx xxxx" name="card">
+                    </div>
+                    <div class="form-group">
+                        <label class="expire control-label col-sm-2" for="expire">Expires:</label>
+                    </div>
+                    <div class="col-sm-10">          
+                        <input type="text" class="form-control" id="mexpire" placeholder="MM" name="mexpire">
+                        <input type="text" class="form-control" id="yexpire" placeholder="YY" name="yexpire">
+                    </div>
+                    <div class="form-group">
+                        <label class="cname control-label" for="cname">Name on Card:</label>
+                    </div>
+                    <div class="col-sm-10">          
+                        <input type="text" class="form-control" id="cname" placeholder="" name="cname">
+                    </div>
+                    <div class="form-group">
+                        <label class="cvc control-label" for="cvc">CVC:</label>
+                    </div>
+                    <div class="col-sm-10">          
+                        <input type="text" class="form-control" id="cvc" placeholder="xxx" name="cvc">
+                    </div>
+                    <div class="form-group">      
+                        <div class="subscribe col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-success">Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="JS/SubscriptionPopUpScript.js"></script>
+    </body>
+</html>   

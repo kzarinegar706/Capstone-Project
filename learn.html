@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Green 360</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = "stylesheet" type = "text/css" href="CSS/learnStyle.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body class="body">
+        <header>
+            <div>
+              <a href="index.html"><img src="images/logo2.png"></a>
+            </div>
+            <!-- Nav Bar -->
+            <div class="nav">
+            <nav class="navbar navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#"></a>
+                    </div>
+                    <ul class="leftNav nav navbar-nav">
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="shop.html">SHOP</a></li>
+                    </ul>
+                    <ul class="rightNav nav navbar-nav">
+                        <li><a href="learn.html">LEARN</a></li>
+                        <li><a href="#" id="btn" onclick="showSub()">SUBSCRIBE</a></li>
+                    </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="shade"></div>
+        <div class="jumbo">
+            <img src="images/jumbo.jpg">
+            <h4>Gardening</h4>
+            <h1>Green 360 Composting: What is Compost?</h1>
+        </div>
+        <div class="jumboText">
+            <p>Make a habit of adding compost to the soil each planting season because it is rich in nutrients, and it promotes soil microbes that aid plant growth. In a nutshell, compost is decomposed organic matter. Composting is a natural process of recycling organic material such as leaves and vegetable scraps into a rich soil amendment that gardeners fondly nickname Black Gold.</p>
+        </div>
+        <div class="benefits">
+            <h1>Composting Benefits</h1>
+            <P>Compost is the single most important supplement you can give your garden. It’s a simple way to add nutrient-rich humus to your lawn or garden that fuels plant growth and restores vitality to depleted soil. It's also <strong>great for the environment</strong> because it can offer a natural alternative to chemical fertilizers when applied to lawns and garden beds. Through composting you enhance your garden’s ability to grow healthy plants while reducing your volume of trash.</P>
+            <img src="images/benefits.jpg">
+        </div>
+        <div class="science">
+            <h3>A healthy Compost Pile is the most important supplement you can give to your garden.</h3>
+            <p>Carbon-rich matter (like branches, stems, dried leaves, peels, bits of wood, bark dust or sawdust pellets, shredded brown paper bags, corn stalks, coffee filters, coffee grounds, conifer needles, egg shells, straw, peat moss, wood ash) gives compost its light, fluffy body.</p>
+        </div>
+        <div class="what">
+            <h1>What to Compost?</h1>
+            <P>A healthy compost pile should have much more carbon than nitrogen. A simple rule of thumb is to use one-third green and two-thirds brown materials. Green 360 can take a great deal of what you use to throw into the garbage and create high grade compost. We will take whatever we can get and strategically place carbon rich matter with nitrogen rich matter for the best possible product. <a href="#" id="btn2" onclick="showSub2()">Click Here</a> to find out more on what you can compost!</P>
+            <img src="images/what.jpg">
+        </div>
+
+       <!-- Difference -->
+        <div class="difference">
+            <h1>What is the difference between compost and fertilizer?</h1>
+            <p id="p1">The simplest way to distinguish between compost and fertilizer is to remember Compost feeds the soil and fertilizer feeds the plants.</p>
+            <p id="p2">Fertilizer adds to the soil’s nutrient supply, but instead of feeding the soil food web, the ingredients in fertilizers are intended to meet the needs of fast-growing plants. While recommended amounts of compost can be quite general, fertilizer application rates are based on the needs of plants. Either organic or conventional fertilizers work well for vegetables, but organic fertilizers have been shown to be friendlier to the soil food web. Chemical fertilizer can also feed composting, but continual use may throw soil chemistry out of balance and discourage microbes. See fertilizer to explore your fertilizer options.</p>
+            <p id="p3">Compost and organic fertilizers can work together. The organic matter in compost sponges up the fertilizer nutrients until they are needed by plants. Compost also provides many nutrients that plants need in small amounts, such as boron. You can use fertilizer without compost, but why miss an opportunity to increase your soil’s fertility and its ability to hold moisture? Soil that is regularly amended with compost becomes wonderfully dark and crumbly and often requires much less fertilizer compared to soil that has not yet benefited from regular helpings of compost.</p>
+        </div>
+
+        <!-- Footer -->
+      <div class="footer">
+        <img src="images/footerIMG.jpg">
+      </div>
+      <footer>
+        <h1>Find Us Online!</h1>
+      </footer>
+      <div class="social">
+        <img src="images/FB.webp">
+        <img src="images/Reddit.png">
+        <img src="images/twitter.webp">
+        <img src="images/youtube.png">
+        <img src="images/IG.png">   
+      </div>
+      <div class="copy">
+        <p class="text-center text-md-left">© 2020 Copyright:
+          <a href="https://mdbootstrap.com/">
+            <strong> Green360.com</strong>
+          </a>
+        </p>
+      </div>
+      <div class="contact">
+        <h3>Contact Us</h3>
+        <p><img src="images/address.png">New York, NY 10012, US</p>
+        <p><img src="images/email.png">info@gmail.com</p>
+        <p><img src="images/phone.webp">+ 01 234 567 88</p>
+        <p><img src="images/Faxs.png">+ 01 234 567 89</p>
+      </div>
+
+      <!-- Compost popUp -->
+      <div class="table" id="pop2">
+          <div class="subTable">
+            <span class="close2">&times;</span>
+            <div class="images">
+              <img id="good" src="images/good.png">
+              <img src="images/bad.png">
+            </div>
+            <div class="goodSide">
+              <ul>
+                <li>Leaves</li>
+                <li>Shredded Paper</li>
+                <li>Eggshells</li>
+                <li>Grass Clippings</li>
+                <li>Dryer Lint</li>
+                <li>Fruit & Vegetable Scraps</li>
+                <li>Corn Cob/Stalks</li>
+                <li>Coffee Grounds</li>
+                <li>Tea Leaves</li>
+                <li>Cardboard</li>
+                <li>Sawdust</li>
+                <li>Herbs & Spices</li>
+                <li>Bread</li>
+              </ul>
+            </div>
+            <div class="badSide">
+              <ul>
+                <li>Long twigs and branches</li>
+                <li>Rasberry & blackberry brambles</li>
+                <li>Pet manure</li>
+                <li>Animal products</li>
+                <li>Meat</li>
+                <li>Bones</li>
+                <li>Fishscraps</li>
+                <li>Oil</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+        
+      <!-- Subscription Popup -->
+      <div class="subPop" id="pop">
+        <div class="subContent">
+            <span class="close">&times;</span>
+            <h1>Sign Up Here!</h1>
+            <form class="form-horizontal" action="/action_page.php">
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="fname">Name:</label>
+                <div class="fname col-sm-10">
+                    <input type="text" class="form-control" id="fname" placeholder="Firstname" name="fname">
+                </div>
+                <div class="col-sm-10">
+                    <input type="text" class="lname form-control" id="lname" placeholder="Lastname" name="lname">
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="email">Email:</label>
+                <div class="col-sm-10">          
+                    <input type="email" class="form-control" id="email" placeholder="example@gmail.com" name="email">
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="phone">Phone:</label>
+                </div>
+                <div class="col-sm-10">          
+                    <input type="tel" class="form-control" id="phone" placeholder="(xxx) xxx-xxxx" name="tel">
+                </div>
+                <h5 id="method">Choose a Payment Method:</h5>
+                <br>
+                <br>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="card">Card #:</label>
+                </div>
+                <div class="col-sm-10">          
+                    <input type="text" class="form-control" id="card" placeholder="xxxx xxxx xxxx xxxx" name="card">
+                </div>
+                <div class="form-group">
+                    <label class="expire control-label col-sm-2" for="expire">Expires:</label>
+                </div>
+                <div class="col-sm-10">          
+                    <input type="text" class="form-control" id="mexpire" placeholder="MM" name="mexpire">
+                    <input type="text" class="form-control" id="yexpire" placeholder="YY" name="yexpire">
+                </div>
+                <div class="form-group">
+                    <label class="cname control-label" for="cname">Name on Card:</label>
+                </div>
+                <div class="col-sm-10">          
+                    <input type="text" class="form-control" id="cname" placeholder="" name="cname">
+                </div>
+                <div class="form-group">
+                    <label class="cvc control-label" for="cvc">CVC:</label>
+                </div>
+                <div class="col-sm-10">          
+                    <input type="text" class="form-control" id="cvc" placeholder="xxx" name="cvc">
+                </div>
+                <div class="form-group">      
+                    <div class="subscribe col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-success">Subscribe</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+      </div>
+      
+      <script src="JS/SubscriptionPopUpScript.js"></script>
+      <script src="JS/CompostPopUpScript.js"></script>
+    </body>
+</html>

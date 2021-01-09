@@ -1,0 +1,413 @@
+@font-face{
+    font-family: 'B';
+    src: url('fonts/b1.ttf');
+}
+@font-face{
+    font-family: 'cursive';
+    src: url('../fonts/cursive.ttf');
+}
+@font-face{
+    font-family: 'bat';
+    src: url('../fonts/bat.ttf');
+}
+html{
+    background-color: rgb(238, 238, 238);
+    height: 180em;
+}
+.body{
+    height: 155em;
+    background-color: rgb(238, 238, 238);
+    border-bottom: 2px solid black;
+}
+header{
+    width: 100%;
+    height: 7.5em;
+    border-bottom: 1px solid green;
+}
+header img{
+    position: absolute;
+    height: 7em;
+    width: 14.5em;
+    top: -0.3em;
+    left: 40em;
+}
+header img:hover{
+    height: 10em;
+    width: 20em;
+    top: -2em;
+    left: 37em;
+}
+/* Nav */
+nav{
+    font-size: 250%;
+    height: 6em;
+}
+nav ul li a{
+    color: rgb(199, 90, 0);
+}
+nav ul li a:hover{
+    text-decoration: none;
+    border-bottom: 4px solid green;
+    color: rgb(199, 90, 0);
+}
+.leftNav{
+    position: absolute;
+    top: 0.5em;
+    left: 7em;
+    width: 10em;
+    height: 0em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.rightNav{
+    position: absolute;
+    top: 0.5em;
+    left: 22em;
+    width: 10em;
+    height: 0em;
+}
+/* Intro */
+.intro{
+    position: absolute;
+    width: 100%;
+    height: 28em;
+    background-color:rgb(236, 236, 236);
+}
+.intro img{
+    position: relative;
+    width: 25em;
+    height: 20em;
+    left: 34.7em;
+    top: 0.7em;
+}
+.intro h3{
+    position: relative;
+    top: -0.5em;
+    font-family: 'cursive';
+    font-size: 300%;
+    width: 100%;
+    padding-left: 5em;
+    padding-right: 5em;
+    text-align: center;
+}
+/* About Green 360 */
+.about{
+    position: absolute;
+    top: 35.5em;
+    width: 100%;
+    height: 28em;
+    background-color:rgb(221, 220, 220);
+}
+.about h3{
+    position: relative;
+    font-family: 'bat';
+    font-size: 300%;
+    left: 0.5em;
+    width: 10em;
+    top: 0em;
+}
+.about p{
+    position: relative;
+    width: 25em;
+    top: -0.5em;
+    left: 33em;
+    font-size: 150%;
+    text-align: center;
+    color: grey;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about img{
+    position: relative;
+    height: 17em;
+    width: 30em;
+    top: -19em;
+    left: 7em;
+    border: 1px solid rgb(103, 202, 5);
+}
+/* why we do it */
+.why{
+    position: absolute;
+    top: 63.5em;
+    width: 100%;
+    height: 28em;
+    background-color:rgb(209, 208, 208);
+}
+.why h3{
+    position: relative;
+    font-family: 'bat';
+    font-size: 300%;
+    left: 23em;
+    width: 6em;
+    top: 0em;
+    transform: skewX(45deg);
+}
+.why p{
+    position: relative;
+    width: 25em;
+    top: -0.5em;
+    left: 3em;
+    font-size: 150%;
+    text-align: center;
+    color: grey;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.why img{
+    position: relative;
+    height: 17em;
+    width: 30em;
+    top: -19em;
+    left: 55em;
+    border: 1px solid rgb(103, 202, 5);
+}
+/* Expand */
+.expand{
+    position: absolute;
+    top: 91em;
+    width: 100%;
+    height: 28em;
+    background-color:rgb(221, 220, 220);
+}
+.expand h3{
+    position: relative;
+    font-family: 'bat';
+    font-size: 300%;
+    left: 0.5em;
+    width: 10em;
+    top: 0em;
+}
+.expand p{
+    position: relative;
+    width: 25em;
+    top: 2em;
+    left: 33em;
+    font-size: 150%;
+    text-align: center;
+    color: grey;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.expand img{
+    position: relative;
+    height: 17em;
+    width: 30em;
+    top: -13em;
+    left: 7em;
+}
+/* What green 360 offers */
+.offer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 30em;
+    top: 119em;
+    background-color:rgb(236, 236, 236);
+
+}
+.pickUp, .make, .delivery{
+    position: relative;
+    top: 3em;
+    height: 27em;
+    width: 23em;
+    background-color: white;
+    padding: 25px;
+}
+/* Pickup */
+.img{
+    position: relative;
+    width: 100%;
+    height: 10em;
+    border-bottom:rgb(103, 202, 5) 1px solid;
+}
+.h33{
+    text-align: center;
+    border-bottom:rgb(103, 202, 5) 1px solid;
+    font-size: 300%;
+    font-family: 'bat';
+}
+.p{
+    font-size: 110%;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+ 
+/* Footer style */
+.footer img{
+    position: fixed;
+    bottom: 0em;
+    width: 100%;
+    height: 25em;
+    z-index: -10;
+}
+footer h1{
+    position: relative;
+    left: 8em;
+    top: 60.5em;
+    width: 10em;
+    color: white;
+    z-index: 5;
+}
+.social{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 40em;
+    justify-content: space-evenly;
+    left: 8em;
+    top: 154em;
+}
+.social img{
+    height: 5em;
+    width: 5em;
+    filter: grayscale(100%);
+}
+.social img:hover{
+    filter: grayscale(0%);
+}
+.copy{
+    color: white;
+    position: relative;
+    left: 20.8em;
+    top: 158em;
+    width: 20em;
+}
+.contact{
+    position: relative;
+    color: white;
+    left: 70em;
+    top: 140.5em;
+    width: 20em;
+}
+.contact h3{
+    padding-bottom: 0.5em;
+}
+.contact p{
+    padding-left: 2em;
+}
+.contact img{
+    height: 2em;
+    width: 2em;
+    position: relative;
+    left: -1em;
+}
+
+
+/* Subscription Pop Up */
+.subPop{
+    display: none;
+    position: fixed;
+    z-index: 4;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+/* Content */
+.subContent {
+    background-color: #fefefe;
+    margin: auto;
+    border: 3px solid rgb(103, 202, 5);
+    width: 50%;
+    height: 40em;
+    border-radius: 15px;
+}
+.subContent h1{
+    padding-top: 0.3em;
+    padding-left: 0.3em;
+    font-size: 350%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#fname{
+    width: 15em;
+    border: 2px solid green;
+}
+#lname{
+    position: absolute;
+    width: 15em;
+    top: -2.4em;
+    left: 18em;
+    border: 2px solid green;
+}
+#email{
+    border: 2px solid green;
+}
+#phone{
+    border: 2px solid green;
+}
+#card{
+    width: 15em;
+    border: 2px solid green;
+}
+#method{
+    position: absolute;
+    top: 0em;
+    color: black;
+    padding-left: 1em;
+    top: 20.5em;
+}
+.expire{
+    position: absolute;
+    top: -5.5em;
+    left: 20em;
+}
+#mexpire{
+    position: absolute;
+    width: 3.5em;
+    top: -5.4em;
+    left: 20.8em;
+    border: 2px solid green;
+}
+#yexpire{
+    position: absolute;
+    width: 3em;
+    top: -5.4em;
+    left: 25em;
+    border: 2px solid green;
+}
+.cname{
+    position: absolute;
+    left: 24.9em;
+    top: 33.6em;
+}
+#cname{
+    position: absolute;
+    width: 15em;
+    top: -1em;
+    border: 2px solid green;
+}
+.cvc{
+    position: absolute;
+    top: 33.6em;
+    left: 45em;
+}
+#cvc{
+    position: absolute;
+    top: -1em;
+    width: 3.5em;
+    left: 20.8em;
+    border: 2px solid green;
+}
+.subscribe{
+    position: relative;
+    top: 3em;
+    left: 0em;
+}
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+    width: 2em;
+    padding-top: 1em;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
